@@ -2,4 +2,30 @@
 	border-style: solid;
     border-width: 1px;
     padding: 1rem 0.75rem;
-  	background-color: #FFDCDC; }
+  	background-color: #FFDCDC;
+}
+
+.nav-wrapper{
+	background-color: #fff;
+}
+
+.nav-wrapper .brand-logo{
+	color:#000;
+	margin-left: 5rem;
+}
+
+.nav-wrapper a{
+	color:#000;
+}
+
+@media(max-width: 768px){
+	.nav-wrapper .brand-logo{
+		margin:0;
+	}
+} /* xs */
+@media(min-width: 768px) and (max-width: 992px){
+} /* sm */
+@media(min-width: 992px) and (max-width: 1200px){
+} /* md */
+@media(min-width: 1200px){
+} /* lg */
