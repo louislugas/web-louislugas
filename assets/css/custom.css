@@ -1,3 +1,23 @@
+body {
+	white-space: nowrap;
+
+}
+
+.project {
+	border :solid 1px #000;
+	background-color: #FFDCDC;
+	padding: 1rem;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.work {
+	border :solid 1px #000;
+	padding: 1rem;
+	float:left;
+	display:inline-block;
+}
+
 .row .col {
 	border-style: solid;
     border-width: 1px;
