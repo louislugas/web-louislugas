@@ -4,18 +4,11 @@ body {
 }
 
 .project {
-	border :solid 1px #000;
-	background-color: #FFDCDC;
-	padding: 1rem;
-	overflow: hidden;
-	white-space: nowrap;
+	margin:0;
 }
 
 .work {
-	border :solid 1px #000;
-	padding: 1rem;
-	float:left;
-	display:inline-block;
+	display: inline-block;
 }
 
 .row .col {
