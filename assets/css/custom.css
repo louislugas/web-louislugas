@@ -3,8 +3,15 @@ body {
 
 }
 
+.container {
+	margin: 0;
+	padding: 0.5rem;
+	overflow: hidden;
+}
 .project {
 	margin:0;
+	padding: 1rem;
+	position: fixed;
 }
 
 .work {
@@ -18,18 +25,22 @@ body {
   	background-color: #FFDCDC;
 }
 
+nav {
+    background-color: #fff;
+    box-shadow: none;
+}
+
 .nav-wrapper{
 	z-index: 3;
-	background: rgba(0, 0, 0, 0);
 }
 
 .nav-wrapper .brand-logo{
-	color:#fff;
+	color:#000;
 	margin-left: 5rem;
 }
 
 .nav-wrapper a{
-	color:#fff;
+	color:#000;
 }
 
 @media(max-width: 768px){
