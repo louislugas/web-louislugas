@@ -53,13 +53,14 @@ nav {
 
 .content {
 	margin: auto;
+  
 }
 
 .project {
 	position: fixed;
 	white-space: nowrap;
-	margin-left: 18rem;
-	margin-top: 10rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .work{
@@ -68,6 +69,48 @@ nav {
 
 .slider{
 	z-index: -1;
+}
+
+.btnleft{
+  z-index: 5;
+  background: #000;
+  color: #fff;
+  float: left;
+  width: 75px;
+  height: 75px;
+  left: 15px;
+  top: 50%;
+  position: fixed;
+  transform: translateY(-50%);
+  text-align: center;
+
+}
+
+.btnright{
+  z-index: 5;
+  background: #000;
+  color: #fff;
+  float: right;
+  width: 75px;
+  height: 75px;
+  right: 15px;
+  top: 50%;
+  position: fixed;
+  transform: translateY(-50%);
+  text-align: center;
+
+}
+
+.btnleft p{
+  position: relative;
+  transform: translateY(-3.25rem);
+  font-size: 48px;
+}
+
+.btnright p{
+  position: relative;
+  transform: translateY(-3.25rem);
+  font-size: 48px;
 }
 
 @media(max-width: 768px){
