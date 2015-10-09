@@ -1,16 +1,17 @@
 body {
 	white-space: nowrap;
-
 }
 
-.container {
+nav {
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.content {
 	margin: 0;
-	padding: 0.5rem;
-	overflow: hidden;
 }
 .project {
-	margin:0;
-	padding: 1rem;
+	padding-left: 35rem;
 	position: fixed;
 }
 
@@ -23,11 +24,6 @@ body {
     border-width: 1px;
     padding: 1rem 0.75rem;
   	background-color: #FFDCDC;
-}
-
-nav {
-    background-color: #fff;
-    box-shadow: none;
 }
 
 .nav-wrapper{
