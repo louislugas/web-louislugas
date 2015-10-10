@@ -21,3 +21,16 @@ $(document).on("keydown", function(event) {
 		}); 
 	}
 });
+
+$(document).ready(function(){
+    $(".btnright").click(function(){
+        $(".project").animate({
+        	left: "+=150px",
+        });
+    });
+    $(".btnleft").click(function(){
+        $(".project").animate({
+        	left: "-=150px",
+        });
+    });
+});
