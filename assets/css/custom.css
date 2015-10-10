@@ -101,16 +101,16 @@ nav {
 
 }
 
-.btnleft p{
+.btnleft span{
   position: relative;
-  transform: translateY(-3.25rem);
-  font-size: 48px;
+  padding-top: 13px;
+  font-size: 50px;
 }
 
-.btnright p{
+.btnright span{
   position: relative;
-  transform: translateY(-3.25rem);
-  font-size: 48px;
+  padding-top: 13px;
+  font-size: 50px;
 }
 
 @media(max-width: 768px){
