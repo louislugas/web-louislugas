@@ -63,9 +63,35 @@ nav {
   transform: translateY(-50%);
 }
 
+.project0 {
+  position: fixed;
+  width: 75%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .work{
 	display: inline-block;
+  padding: 50px;
 }
+
+.card.small {
+  width: 300px; 
+  display: inline-block;
+  margin: 5px;
+}
+
+.card.small .card-image {
+  width: 300px;
+  height: 300px; 
+}
+
+.card .card-image img{
+  height: 100%; 
+  width: auto;
+}
+
+
 
 .slider{
 	z-index: -1;
@@ -83,6 +109,7 @@ nav {
   position: fixed;
   transform: translateY(-50%);
   text-align: center;
+  cursor:pointer;
 
 }
 
@@ -98,6 +125,7 @@ nav {
   position: fixed;
   transform: translateY(-50%);
   text-align: center;
+  cursor:pointer;
 
 }
 
@@ -105,12 +133,14 @@ nav {
   position: relative;
   padding-top: 13px;
   font-size: 50px;
+  cursor:pointer;
 }
 
 .btnright span{
   position: relative;
   padding-top: 13px;
   font-size: 50px;
+  cursor:pointer;
 }
 
 @media(max-width: 768px){
