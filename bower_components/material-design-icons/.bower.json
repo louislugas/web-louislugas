@@ -18,7 +18,6 @@
     "commit": "8fe17ce569f4b105e94d132ee8ba92a9d25ce27f"
   },
   "_source": "git://github.com/google/material-design-icons.git",
-  "_target": "~2.0.0",
-  "_originalSource": "material-design-icons",
-  "_direct": true
+  "_target": "*",
+  "_originalSource": "material-design-icons"
 }
