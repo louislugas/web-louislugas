@@ -72,7 +72,12 @@ nav {
 
 .work{
 	display: inline-block;
-  padding: 50px;
+  padding: 20px;
+}
+
+.work img {
+  height: 480px;
+  width: auto;
 }
 
 .card.small {

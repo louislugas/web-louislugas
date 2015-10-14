@@ -1,15 +1,8 @@
 var appControllers = angular.module('appControllers', []);
 
-appControllers.controller('PhoneListCtrl', function ($scope) {
-  $scope.project = [
-    {'name': 'Nexus S',
-     'imgUrl': 'img/work.jpg'
- 	},
- 	{'name': 'Motorolla A',
-     'imgUrl': 'img/work.jpg'
- 	},
- 	{'name': 'Samsung B',
-     'imgUrl': 'img/work.jpg'
- 	}
-  ];
+appControllers.controller('PhoneListCtrl', function ($scope, $http) {
+	$http.get('../assets/js/json/work.json').success(function(data){
+		$scope.project = data;
+	});
+  
 });

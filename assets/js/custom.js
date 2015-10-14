@@ -19,11 +19,11 @@ $(document).on("keydown", function(event) {
    	var x = event.keyCode;
     if (x == 37) {  // left
     	$(".project").animate({
-        left: '-=150px',
+        left: '+=150px',
 		}); 
 	} else if (x == 39) {  // right
 		$(".project").animate({
-        left: '+=150px',
+        left: '-=150px',
 		}); 
 	}
 });
@@ -32,12 +32,12 @@ $(document).on("keydown", function(event) {
 $(document).ready(function(){
     $(".btnright").click(function(){
         $(".project").animate({
-        	left: "+=150px",
+        	left: "-=150px",
         });
     });
     $(".btnleft").click(function(){
         $(".project").animate({
-        	left: "-=150px",
+        	left: "+=150px",
         });
     });
 });
