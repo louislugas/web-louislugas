@@ -8,7 +8,7 @@ appControllers.controller('HomeController', ['$scope', '$http',
 }]);
 
 appControllers.controller('PhoneListCtrl', function ($scope, $http) {
-	$http.get('/assets/js/json/work.json').success(function(data){
+	$http.get('assets/js/json/work.json').success(function(data){
 		$scope.project = data;
 	});
 });
