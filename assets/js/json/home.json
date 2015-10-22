@@ -1,0 +1,24 @@
+[
+    {
+        "image" : "img/work.jpg",
+        "headingText" : "This is our big Tagline!",
+        "sloganText" : "Here's our small slogan."
+    },
+    {
+        "image" : "img/nature.jpg",
+        "headingText" : "Left Aligned Caption",
+        "sloganText" : "Here's our small slogan."
+    },
+    {
+        "image" : "img/nature2.jpg",
+        "headingText" : "Right Aligned Caption",
+        "sloganText" : "Here's our small slogan."
+
+    },
+    {
+        "image" : "img/nature3.jpg",
+        "headingText" : "This is our big Tagline!",
+        "sloganText" : "Here's our small slogan."
+
+    }
+]

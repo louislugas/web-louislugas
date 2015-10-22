@@ -1,15 +1,17 @@
 var appControllers = angular.module('appControllers', []);
 
-appControllers.controller('PhoneListCtrl', function ($scope) {
-  $scope.project = [
-    {'name': 'Nexus S',
-     'imgUrl': 'img/work.jpg'
- 	},
- 	{'name': 'Motorolla A',
-     'imgUrl': 'img/work.jpg'
- 	},
- 	{'name': 'Samsung B',
-     'imgUrl': 'img/work.jpg'
- 	}
-  ];
+<<<<<<< HEAD
+appControllers.controller('HomeController', ['$scope', '$http',
+    function ($scope, $http){
+        $http.get('assets/js/JSON/home.json').success(function(data){
+            $scope.slides = data;
+        });
+}]);
+=======
+appControllers.controller('PhoneListCtrl', function ($scope, $http) {
+	$http.get('../assets/js/json/work.json').success(function(data){
+		$scope.project = data;
+	});
+  
 });
+>>>>>>> origin/master

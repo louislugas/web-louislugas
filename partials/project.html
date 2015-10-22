@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="webLugas">
 <head>
 	<title>Louis Lugas</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link type="text/css" rel="stylesheet" href="../bower_components/Materialize/bin/materialize.css" media="screen,projection"/>
   	<link type="text/css" rel="stylesheet" href="../assets/css/custom.css">
 </head>
-<body>
+<body ng-controller="PhoneListCtrl">
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper"> <!-- navbar -->
@@ -31,78 +31,13 @@
      <div class="container">
         <div class="row">
             <ul class="project0">
-                 <div class="card small">
+                 <div class="card small" ng-repeat="work in project">
                     <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="../assets/img/work.jpg">
+                      <img class="activator" ng-src="../assets/{{work.imgUrl}}">
                     </div>
                     <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                  </div>
-
-                  <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="../assets/img/work.jpg">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                      <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                  </div>
-
-                  <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="../assets/img/work.jpg">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                      <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                  </div>
-                  <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="../assets/img/work.jpg">
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                  </div>
-
-                  <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="../assets/img/work.jpg">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                      <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                    </div>
-                  </div>
-
-                  <div class="card small">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <img class="activator" src="../assets/img/work.jpg">
-                    </div>
-                    <div class="card-content">
-                      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                      <p><a href="#">This is a link</a></p>
-                    </div>
-                    <div class="card-reveal">
-                      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                      <span class="card-title grey-text text-darken-4">{{work.name}}<i class="material-icons right">close</i></span>
+                      <p>{{work.snippet}}</p>
                     </div>
                   </div>
             </ul>
@@ -114,6 +49,10 @@
 
     <script type="text/javascript" src="../bower_components/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="../bower_components/Materialize/bin/materialize.js"></script>
+    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+
+    <script type="text/javascript" src="../assets/js/app.js"></script>
+    <script type="text/javascript" src="../assets/js/controller.js"></script>
     <script type="text/javascript" src="../assets/js/custom.js"></script>
 
 </body>
