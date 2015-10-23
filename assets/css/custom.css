@@ -53,7 +53,7 @@ nav {
 
 .content {
 	margin: auto;
-  
+
 }
 
 .project {
@@ -81,22 +81,20 @@ nav {
 }
 
 .card.small {
-  width: 300px; 
+  width: 300px;
   display: inline-block;
   margin: 5px;
 }
 
 .card.small .card-image {
   width: 300px;
-  height: 300px; 
+  height: 300px;
 }
 
 .card .card-image img{
-  height: 100%; 
+  height: 100%;
   width: auto;
 }
-
-
 
 .slider{
 	z-index: -1;

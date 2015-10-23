@@ -1,6 +1,7 @@
 var webLugas = angular.module('webLugas', [
     'appControllers',
-    'ngRoute'
+    'ngRoute',
+    'ui.materialize'
 ]);
 
 webLugas.config(['$routeProvider',
