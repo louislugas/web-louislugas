@@ -1,0 +1,47 @@
+[
+    {
+        "name": "A1",
+        "imgUrl": "img/A1.jpg",
+        "snippet": "Here is some more information about this product that is only revealed once clicked on."
+ 	},
+ 	{
+        "name": "A2",
+        "imgUrl": "img/A2.jpg",
+        "snippet": "Here is some more information about this product that is only revealed once clicked on."
+ 	},
+ 	{
+        "name": "A3",
+        "imgUrl": "img/A3.jpg",
+     "snippet": "Here is some more information about this product that is only revealed once clicked on."
+ 	},
+ 	{
+        "name": "A4",
+        "imgUrl": "img/A4.jpg",
+        "snippet": "Here is some more information about this product that is only revealed once clicked on."
+ 	},
+ 	{
+        "name": "A5",
+        "imgUrl": "img/A5.jpg",
+        "snippet": "Here is some more information about this product that is only revealed once clicked on."
+ 	},
+ 	{
+        "name": "A6",
+        "imgUrl": "img/A6.jpg",
+        "snippet": "Here is some more information about this product that is only revealed once clicked on."
+ 	},
+ 	{
+        "name": "A7",
+        "imgUrl": "img/A7.jpg",
+        "snippet": "Here is some more information about this product that is only revealed once clicked on."
+ 	},
+ 	{
+        "name": "A8",
+        "imgUrl": "img/A8.jpg",
+        "snippet": "Here is some more information about this product that is only revealed once clicked on."
+ 	},
+ 	{
+        "name": "A9",
+        "imgUrl": "img/A9.jpg",
+        "snippet": "Here is some more information about this product that is only revealed once clicked on."
+ 	}
+]

@@ -9,7 +9,15 @@ webLugas.config(['$routeProvider',
         $routeProvider.
         when('/home',{
             templateUrl: 'partials/home.html',
-            controller:'HomeController'
+            controller: 'HomeController'
+        }).
+        when('/work/:idWork',{
+            templateUrl: 'partials/work.html',
+            controller: 'WorkController'
+        }).
+        when('/project',{
+            templateUrl: 'partials/project.html',
+            controller: 'ProjectController'
         }).
         otherwise({
             redirectTo: '/home'

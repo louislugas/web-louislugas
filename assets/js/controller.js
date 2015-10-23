@@ -6,10 +6,17 @@ appControllers.controller('HomeController', ['$scope', '$http',
             $scope.slides = data;
         });
 }]);
-/*
-appControllers.controller('PhoneListCtrl', function ($scope, $http) {
-	$http.get('assets/js/json/work.json').success(function(data){
-		$scope.project = data;
-	});
-});
-*/
+
+appControllers.controller('WorkController',['$scope', '$routeParams', '$http',
+    function($scope, $routeParams, $http){
+        $http.get('assets/js/json/' + $routeParams.idWork + '.json').success(function(data){
+            $scope.project = data;
+        });
+}]);
+
+appControllers.controller('ProjectController', ['$scope', '$http',
+    function($scope, $http){
+        $http.get('assets/js/json/project.json').success(function(data){
+            $scope.project = data;
+        });
+}]);

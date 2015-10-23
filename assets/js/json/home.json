@@ -1,22 +1,22 @@
 [
     {
-        "image" : "img/nature.jpg",
+        "image" : "img/A9.jpg",
         "headingText" : "This is our big Tagline!",
         "sloganText" : "Here's our small slogan."
     },
     {
-        "image" : "img/nature2.jpg",
+        "image" : "img/A11.jpg",
         "headingText" : "Left Aligned Caption",
         "sloganText" : "Here's our small slogan."
     },
     {
-        "image" : "img/nature3.jpg",
+        "image" : "img/A23.jpg",
         "headingText" : "Right Aligned Caption",
         "sloganText" : "Here's our small slogan."
 
     },
     {
-        "image" : "img/nature4.jpg",
+        "image" : "img/A27.jpg",
         "headingText" : "This is our big Tagline!",
         "sloganText" : "Here's our small slogan."
     }
