@@ -1,14 +1,14 @@
-<div class="container">
+<div class="container content">
 	<div class="row">
 		<ul>
-			<li class="card small col l3" ng-repeat="work in project">
+			<li class="card" ng-repeat="work in project">
 				<div class="card-image waves-effect waves-block waves-light">
 					<img class="activator" ng-src="assets/{{work.imgUrl}}">
 				</div>
 				<div class="card-reveal">
-					<span class="card-title grey-text text-darken-4">{{work.name}}<i class="material-icons right">close</i></span>
-					<p>{{work.snippet}}</p>
-				</div>
+			      	<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+			      	<p>Here is some more information about this product that is only revealed once clicked on.</p>
+			    </div>
 			</li>
 		</ul>
 	</div>
