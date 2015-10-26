@@ -14,7 +14,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$(".dropdown-button").dropdown({
+	$('.dropdown-button').dropdown({
 		hover: true
 	});
 });
@@ -23,26 +23,29 @@ $(document).ready(function(){
 $(document).on("keydown", function(event) {
    	var x = event.keyCode;
     if (x == 37) {  // left
-    	$(".project").animate({
+    	$('.project').animate({
         left: '+=150px',
 		});
 	} else if (x == 39) {  // right
-		$(".project").animate({
+		$('.project').animate({
         left: '-=150px',
 		});
 	}
 });
 
+
 //SLIDER WORK.HTML (BUTTON)
 $(document).ready(function(){
-    $(".btnright").click(function(){
-        $(".project").animate({
-        	left: "-=150px",
-        });
+    $('.btnright').click(function(){
+        alert('right');
+        $('.project').animate({
+        	left: '-=150px',
+        },500);
     });
-    $(".btnleft").click(function(){
-        $(".project").animate({
-        	left: "+=150px",
-        });
+    $('.btnleft').click(function(){
+        alert('left');
+        $('.project').animate({
+        	left: '+=150px',
+        },500);
     });
 });
