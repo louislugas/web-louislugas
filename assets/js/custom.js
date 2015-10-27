@@ -32,3 +32,16 @@ $(document).on("keydown", function(event) {
 		});
 	}
 });
+
+$(window).bind('mousewheel', function(event) {
+    if (event.originalEvent.wheelDelta >= 0) {
+        $('.project').animate({
+        left: '+=150px',
+		});
+    }
+    else {
+        $('.project').animate({
+        left: '-=150px',
+		});
+    }
+});
