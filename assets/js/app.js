@@ -11,10 +11,6 @@ webLugas.config(['$routeProvider',
             templateUrl: 'partials/home.html',
             controller: 'HomeController'
         }).
-        when('/work/:idWork',{
-            templateUrl: 'partials/work.html',
-            controller: 'WorkController'
-        }).
         when('/project',{
             templateUrl: 'partials/project.html',
             controller: 'ProjectController'
