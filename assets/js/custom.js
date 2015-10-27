@@ -32,20 +32,3 @@ $(document).on("keydown", function(event) {
 		});
 	}
 });
-
-
-//SLIDER WORK.HTML (BUTTON)
-$(document).ready(function(){
-    $('.btnright').click(function(){
-        alert('right');
-        $('.project').animate({
-        	left: '-=150px',
-        },500);
-    });
-    $('.btnleft').click(function(){
-        alert('left');
-        $('.project').animate({
-        	left: '+=150px',
-        },500);
-    });
-});

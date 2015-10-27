@@ -12,6 +12,18 @@ appControllers.controller('WorkController',['$scope', '$routeParams', '$http',
         $http.get('assets/js/json/' + $routeParams.idWork + '.json').success(function(data){
             $scope.project = data;
         });
+
+        $scope.rightClick = function(){
+            $('.project').animate({
+            	left: '-=150px',
+            },500);
+        };
+
+        $scope.leftClick = function(){
+            $('.project').animate({
+                left: '+=150px',
+            },500);
+        };
 }]);
 
 appControllers.controller('ProjectController', ['$scope', '$http',
