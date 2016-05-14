@@ -3,26 +3,26 @@
     <head>
     	<title>Louis Lugas</title>
     	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-    	<link type="text/css" rel="stylesheet" href="bower_components/Materialize/bin/materialize.css" media="screen,projection"/>
+    	<link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.css" media="screen,projection"/>
       	<link type="text/css" rel="stylesheet" href="assets/css/custom.css">
     </head>
     <body>
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper"> <!-- navbar -->
-                    <a href="#!" class="brand-logo" style="color:#fff">Logo</a>
+                    <a href="#" class="brand-logo" style="color:#fff">Logo</a>
                     <a href="#" data-activates="mobile-side-bar" class="button-collapse"><i class="material-icons" style="color:#fff">menu</i></a>
                     <ul class="navbar right hide-on-med-and-down">
                         <li><a href="#/home" style="color:#fff">Home</a></li>
                         <li><a href="#/project" style="color:#fff">Work</a></li>
                         <li><a href="#/about" style="color:#fff">About</a></li>
                     </ul>
-                    <ul class="side-nav" id="mobile-side-bar">
+                    <!-- <ul class="side-nav" id="mobile-side-bar">
                         <li><a href="sass.html">Sass</a></li>
                         <li><a href="badges.html">Components</a></li>
                         <li><a href="collapsible.html">Javascript</a></li>
                         <li><a href="mobile.html">Mobile</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </nav>
         </div>
@@ -30,14 +30,15 @@
         <div ng-view></div>
 
         <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-        <script type="text/javascript" src="bower_components/Materialize/bin/materialize.js"></script>
         <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-        <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+        <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.js"></script>
         <script type="text/javascript" src="bower_components/angular-materialize/src/angular-materialize.js"></script>
+        <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
 
         <script type="text/javascript" src="assets/js/app.js"></script>
         <script type="text/javascript" src="assets/js/controller.js"></script>
 
         <script type="text/javascript" src="assets/js/custom.js"></script>
     </body>
+
 </html>

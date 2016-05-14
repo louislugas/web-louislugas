@@ -2,10 +2,14 @@ var appControllers = angular.module('appControllers', []);
 
 appControllers.controller('HomeController', ['$scope', '$http',
     function ($scope, $http){
-        $http.get('assets/js/json/home.json').success(function(data){
-            $scope.slides = data;
+        $http.get('assets/json/home.json').success(function(data){
+            $scope.slidesData = data;
         });
-}]);
+        $('.slider').slider({
+            full_width: true,
+        });
+    }
+]);
 
 appControllers.controller('WorkController',['$scope', '$routeParams', '$http',
     function($scope, $routeParams, $http){
@@ -24,11 +28,13 @@ appControllers.controller('WorkController',['$scope', '$routeParams', '$http',
                 left: '+=150px',
             },500);
         };
-}]);
+    }
+]);
 
 appControllers.controller('ProjectController', ['$scope', '$http',
     function($scope, $http){
         $http.get('assets/js/json/project.json').success(function(data){
             $scope.project = data;
         });
-}]);
+    }
+]);

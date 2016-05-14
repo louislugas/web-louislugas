@@ -1,11 +1,10 @@
-<div class="slider fullscreen" slider>
+<div class="slider fullscreen z-depth-1">
     <ul class="slides">
-        <li ng-repeat="slide in slides">
-            <img ng-src="assets/{{slide.image}}"/>
-            <div class="caption center-align">
-                <h3>{{slide.headingText}}</h3>
-                <h5 class="light grey-text text-lighten-3">{{slide.sloganText}}</h5>
-            </div>
+        <li ng-repeat="slide in slidesData">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIABAP///wAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" style="background-image: url('{{slide.image}}')"></img>
         </li>
+        <!-- <li>
+            <img src="assets/img/illustration/Mudra/mudra1.jpg"></img>
+        </li> -->
     </ul>
 </div>

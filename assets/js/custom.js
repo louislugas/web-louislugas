@@ -13,22 +13,22 @@ $(document).ready(function(){
       $('.slider').slider();
 });
 
-$(document).ready(function(){
-	$('.dropdown-button').dropdown({
-		hover: true
-	});
-});
+// $(document).ready(function(){
+// 	$('.dropdown-button').dropdown({
+// 		hover: true
+// 	});
+// });
 
 //SLIDER WORK.HTML (KEYBOARD)
 $(document).on("keydown", function(event) {
    	var x = event.keyCode;
     if (x == 37) {  // left
     	$('.project').animate({
-        left: '+=150px',
+        	left: '+=150px',
 		});
 	} else if (x == 39) {  // right
 		$('.project').animate({
-        left: '-=150px',
+        	left: '-=150px',
 		});
 	}
 });

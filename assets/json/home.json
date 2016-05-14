@@ -1,0 +1,17 @@
+[
+    {
+        "image" : "assets/img/illustration/Mudra/mudra1.jpg",
+        "headingText" : "This is our big Tagline! 1",
+        "sloganText" : "Here's our small slogan."
+    },
+    {
+        "image" : "assets/img/illustration/Mudra/mudra2.jpg",
+        "headingText" : "This is our big Tagline! 2",
+        "sloganText" : "Here's our small slogan."
+    },
+    {
+        "image" : "assets/img/illustration/Mudra/mudra3.jpg",
+        "headingText" : "This is our big Tagline! 3",
+        "sloganText" : "Here's our small slogan."
+    }
+]
