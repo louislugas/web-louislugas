@@ -37,11 +37,11 @@ $(window).bind('mousewheel', function(event) {
     if (event.originalEvent.wheelDelta >= 0) {
         $('.project').animate({
         left: '+=150px',
-		});
+		},5);
     }
     else {
         $('.project').animate({
         left: '-=150px',
-		});
+		},5);
     }
 });
