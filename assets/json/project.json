@@ -1,47 +1,20 @@
 [
     {
-        "name": "Mudra",
-        "imgUrl": "assets/img/illustration/mudra/mudra1.jpg",
-        "snippet": "Here is some more information about this product that is only revealed once clicked on."
+        "name": "Project1",
+        "imgUrl": "img/illustration/mudra/mudra1.jpg",
+        "snippet": "Snippet 1",
+        "url":"#/work"
  	},
  	{
-        "name": "A2",
-        "imgUrl": "img/A2.jpg",
-        "snippet": "Here is some more information about this product that is only revealed once clicked on."
+        "name": "Project2",
+        "imgUrl": "img/illustration/mudra/mudra2.jpg",
+        "snippet": "snippet 2",
+        "url":"#/work"
  	},
- 	{
-        "name": "A3",
-        "imgUrl": "img/A3.jpg",
-     "snippet": "Here is some more information about this product that is only revealed once clicked on."
- 	},
- 	{
-        "name": "A4",
-        "imgUrl": "img/A4.jpg",
-        "snippet": "Here is some more information about this product that is only revealed once clicked on."
- 	},
- 	{
-        "name": "A5",
-        "imgUrl": "img/A5.jpg",
-        "snippet": "Here is some more information about this product that is only revealed once clicked on."
- 	},
- 	{
-        "name": "A6",
-        "imgUrl": "img/A6.jpg",
-        "snippet": "Here is some more information about this product that is only revealed once clicked on."
- 	},
- 	{
-        "name": "A7",
-        "imgUrl": "img/A7.jpg",
-        "snippet": "Here is some more information about this product that is only revealed once clicked on."
- 	},
- 	{
-        "name": "A8",
-        "imgUrl": "img/A8.jpg",
-        "snippet": "Here is some more information about this product that is only revealed once clicked on."
- 	},
- 	{
-        "name": "A9",
-        "imgUrl": "img/A9.jpg",
-        "snippet": "Here is some more information about this product that is only revealed once clicked on."
- 	}
+    {
+        "name": "Project3",
+        "imgUrl": "img/illustration/mudra/mudra3.jpg",
+        "snippet": "snippet 2",
+        "url":"#/work"
+    }
 ]

@@ -13,7 +13,7 @@ appControllers.controller('HomeController', ['$scope', '$http',
 
 appControllers.controller('WorkController',['$scope', '$routeParams', '$http',
     function($scope, $routeParams, $http){
-        $http.get('assets/js/json/' + $routeParams.idWork + '.json').success(function(data){
+        $http.get('assets/json/' + $routeParams.idWork + '.json').success(function(data){
             $scope.project = data;
         });
 
@@ -33,7 +33,7 @@ appControllers.controller('WorkController',['$scope', '$routeParams', '$http',
 
 appControllers.controller('ProjectController', ['$scope', '$http',
     function($scope, $http){
-        $http.get('assets/js/json/project.json').success(function(data){
+        $http.get('assets/json/project.json').success(function(data){
             $scope.project = data;
         });
     }
