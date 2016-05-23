@@ -11,30 +11,44 @@ appControllers.controller('HomeController', ['$scope', '$http',
     }
 ]);
 
+
+//NOT WORKING--start
 appControllers.controller('WorkController',['$scope', '$routeParams', '$http',
     function($scope, $routeParams, $http){
-        $http.get('assets/json/' + $routeParams.idWork + '.json').success(function(data){
-            $scope.project = data;
-        });
-
-        $scope.rightClick = function(){
-            $('.project').animate({
-            	left: '-=150px',
-            },500);
-        };
-
-        $scope.leftClick = function(){
-            $('.project').animate({
-                left: '+=150px',
-            },500);
-        };
-    }
-]);
-
-appControllers.controller('ProjectController', ['$scope', '$http',
-    function($scope, $http){
         $http.get('assets/json/project.json').success(function(data){
-            $scope.project = data;
+            $scope.work = data[$routeParams.id];
+        });
+
+       // $scope.rightClick = function(){
+       //     $('.project').animate({
+       //     	left: '-=150px',
+       //     },500);
+       // };
+
+        //$scope.leftClick = function(){
+        //    $('.project').animate({
+        //        left: '+=150px',
+        //    },500);
+        //};
+    }
+]);
+//NOT WORKING--end
+
+appControllers.controller('ProjectIllustController', ['$scope', '$http',
+    function($scope, $http){
+        $http.get('assets/json/project_i.json').success(function(data){
+            $scope.projectill = data;
+
         });
     }
 ]);
+
+appControllers.controller('ProjectPhotoController', ['$scope', '$http',
+    function($scope, $http){
+        $http.get('assets/json/project_p.json').success(function(data){
+            $scope.projectpho = data;
+
+        });
+    }
+]);
+

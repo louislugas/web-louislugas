@@ -5908,7 +5908,7 @@ button.btn-floating {
   background-color: #fff;
   margin: 0;
   display: none;
-  min-width: 100px;
+  min-width: 150px;
   max-height: 650px;
   overflow-y: auto;
   opacity: 0;
@@ -7544,7 +7544,7 @@ select {
       height: inherit;
       overflow: hidden; }
       .slider .slides li img {
-        height: 100%;
+        height:100%;
         width: 100%;
         background-size: cover;
         background-position: center; }
