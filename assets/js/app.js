@@ -15,13 +15,7 @@ webLugas.config(['$routeProvider',
             templateUrl: 'partials/project.html',
             controller: 'ProjectController'
         }).
-          when('/work',{
-            templateUrl: 'partials/work.html',
-            controller: 'ProjectController'
-        }).
         otherwise({
             redirectTo: '/home'
         });
 }]);
-
-
