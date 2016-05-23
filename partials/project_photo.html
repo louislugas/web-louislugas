@@ -1,0 +1,30 @@
+<div class="container content">
+	<div class="row">
+		<ul class="kartu">
+			<li class="card" ng-repeat="illust in projectpho">
+				<div class="card-image waves-effect waves-block waves-light">
+					<img class="activator" ng-src="assets/{{illust.cover}}">
+				</div>
+				<a href="#/work/{{$index}}"><div class="card-reveal">
+			      	<span class="card-title">{{illust.projectname}}</span>
+			    </div>
+			    </a>
+			</li>
+		</ul>
+	</div>
+</div>
+<!--<div class="container">
+	<div class="row">
+		<ul>
+			<li class="card small col l3" ng-repeat="work in project">
+				<div class="card-image waves-effect waves-block waves-light">
+					<img class="activator" ng-src="assets/{{work.imgUrl}}">
+				</div>
+				<div class="card-reveal">
+					<span class="card-title grey-text text-darken-4">{{work.name}}<i class="material-icons right">close</i></span>
+					<p>{{work.snippet}}</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>-->

@@ -1,0 +1,43 @@
+[
+        {
+            "projectname": "Project1",
+            "cover": "img/illustration/mudra/mudra1.jpg",
+            "desc": "project description 1",
+            "url":"#/work",
+            "content": [
+            {
+                "content":"img/illustration/mudra/mudra1.jpg",
+                "workdesc":"work description 1",
+            },
+            {
+                "content":"img/illustration/mudra/mudra2.jpg",
+                "workdesc":"work description 2",
+            },
+            {
+                "content":"img/illustration/mudra/mudra3.jpg",
+                "workdesc":"work description 3",
+            },
+            {
+                "content":"img/illustration/mudra/mudra4.jpg",
+                "workdesc":"work description 4",
+            },
+            {
+                "content":"img/illustration/mudra/mudra5.jpg",
+                "workdesc":"work description 5",
+            },
+            ]
+     	},
+     	{
+            "project": "Project2",
+            "cover": "img/illustration/mudra/mudra2.jpg",
+            "desc": "project description 2",
+            "url":"#/work"
+     	},
+        {
+            "project": "Project3",
+            "cover": "img/illustration/mudra/mudra3.jpg",
+            "desc": "project description 3",
+            "url":"#/work"
+        },
+    
+]
