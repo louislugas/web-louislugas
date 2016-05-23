@@ -25,14 +25,15 @@ $(document).on("keydown", function(event) {
     if (x == 37) {  // left
     	$('.project').animate({
         	left: '+=150px',
-		});
+		},100);
 	} else if (x == 39) {  // right
 		$('.project').animate({
         	left: '-=150px',
-		});
+		},100);
 	}
 });
 
+//SLIDER WORK.HTML (MOUSEWHEEL)
 $(window).bind('mousewheel', function(event) {
     if (event.originalEvent.wheelDelta >= 0) {
         $('.project').animate({
@@ -45,3 +46,22 @@ $(window).bind('mousewheel', function(event) {
 		},5);
     }
 });
+
+
+
+//SLIDER WORK.HTML (BUTTON)
+$(document).on('click', '.btnright',function(){
+           // alert('right');
+        $('.project').animate({
+            left: '-=150px',
+        },100);
+    });
+
+$(document).on('click', '.btnleft',function(){
+           // alert('left');
+        $('.project').animate({
+            left: '+=150px',
+        },100);
+    });
+
+
