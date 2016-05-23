@@ -8,13 +8,17 @@
     </head>
     <body>
         <div class="navbar-fixed">
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a href="#/pro_illust">ILLUSTRATION</a></li>
+              <li><a href="#/pro_photo">PHOTOGRAPHY</a></li>
+            </ul>
             <nav>
                 <div class="nav-wrapper"> <!-- navbar -->
                     <a href="#" class="brand-logo" style="color:#fff"><img src="assets/img/logo-01.png" height ="100" width = "100"></img></a>
                     <a href="#" data-activates="mobile-side-bar" class="button-collapse"><i class="material-icons" style="color:#fff">menu</i></a>
                     <ul class="navbar right hide-on-med-and-down">
                         <li><a href="#/home" style="color:#000">HOME</a></li>
-                        <li><a href="#/project" style="color:#000">WORK</a></li>
+                        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">WORK</a></li>
                         <li><a href="#/about" style="color:#000">ABOUT</a></li>
                     </ul>
                     <!-- <ul class="side-nav" id="mobile-side-bar">
