@@ -1,16 +1,21 @@
 [
     {
-        "image" : "assets/img/illustration/Mudra/mudra1.jpg",
+        "image" : "assets/img/illustration/mudra/mudra1.jpg",
         "headingText" : "This is our big Tagline! 1",
         "sloganText" : "Here's our small slogan."
     },
     {
-        "image" : "assets/img/illustration/Mudra/mudra2.jpg",
+        "image" : "assets/img/illustration/parsprototo/ppt2.jpg",
         "headingText" : "This is our big Tagline! 2",
         "sloganText" : "Here's our small slogan."
     },
     {
-        "image" : "assets/img/illustration/Mudra/mudra3.jpg",
+        "image" : "assets/img/illustration/kenmeri/kenmeri_marker.jpg",
+        "headingText" : "This is our big Tagline! 3",
+        "sloganText" : "Here's our small slogan."
+    },
+    {
+        "image" : "assets/img/illustration/bagua/BG1.jpg",
         "headingText" : "This is our big Tagline! 3",
         "sloganText" : "Here's our small slogan."
     }
